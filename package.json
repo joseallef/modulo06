@@ -8,5 +8,14 @@
     "packages": [
       "projetos/*"
     ]
+  },
+  "scripts": {
+    "site": "yarn workspace @joseallef/site",
+    "site:dev": "yarn site dev",
+    "site:build": "yarn site build",
+    "ui": "yarn workspace @joseallef/ui",
+    "ui:start": "yarn ui start",
+    "ui:build": "yarn ui build"
+    
   }
 }

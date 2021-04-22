@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import Button from '@joseallef/modulo-comum/components/Button'
+import Button from '@joseallef/ui/src/components/Button'
+
 const Title = styled.h1`
   color: blue;
   font-size: 50px;
@@ -7,7 +8,12 @@ const Title = styled.h1`
 
 export default function Home() {
   return (
-    <Button />
-    <Title>My page so para testes com libs de componentes local</Title>
+    <div>
+      <Button />
+      {/* <Button>
+        Adicionando children onde estamos usando o componente
+      </Button> */}
+      <Title>My page so para testes com libs de componentes local</Title>
+    </div>
   )
 }
